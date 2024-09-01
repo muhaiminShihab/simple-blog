@@ -1,4 +1,6 @@
+'use client';
 import Link from "next/link";
+import Modal from "../modal";
 
 export default function Header() {
     return (
@@ -39,7 +41,14 @@ export default function Header() {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <button className="btn">Subscription</button>
+                        <button className="btn" onClick={() => document.getElementById('subscriptionModal').showModal()}>open modal</button>
+                        <Modal id="subscriptionModal" title="Newsletter Subscription">
+                            <div className="py-4">
+                                <label className="label">Email Address:</label>
+                                <input type="email" placeholder="hello@simpleblog.test" autoComplete="email" class="input input-bordered w-full" />
+                                <button class="btn btn-primary w-full mt-4">Subscribe</button>
+                            </div>
+                        </Modal>
                     </div>
                 </div>
             </div>
