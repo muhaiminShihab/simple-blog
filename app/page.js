@@ -63,17 +63,17 @@ export default function Home() {
                         </div>
                         <div className="w-full lg:w-1/2 lg:mt-0 md:mt-40 mt-16 max-lg:max-w-2xl">
                             <div className="grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 gap-8">
-                                <Image src="https://pagedone.io/asset/uploads/1696238644.png" alt="Team tailwind section"
+                                <Image src="https://pagedone.io/asset/uploads/1696238644.png" alt="#"
                                     className="w-44 h-56 rounded-2xl object-cover md:mt-20 mx-auto min-[450px]:mr-0" width={100} height={100} />
-                                <Image src="https://pagedone.io/asset/uploads/1696238665.png" alt="Team tailwind section"
+                                <Image src="https://pagedone.io/asset/uploads/1696238665.png" alt="#"
                                     className="w-44 h-56 rounded-2xl object-cover mx-auto min-[450px]:ml-0 md:mx-auto" width={100} height={100} />
-                                <Image src="https://pagedone.io/asset/uploads/1696238684.png" alt="Team tailwind section"
+                                <Image src="https://pagedone.io/asset/uploads/1696238684.png" alt="#"
                                     className="w-44 h-56 rounded-2xl object-cover md:mt-20 mx-auto min-[450px]:mr-0 md:ml-0" width={100} height={100} />
-                                <Image src="https://pagedone.io/asset/uploads/1696238702.png" alt="Team tailwind section"
+                                <Image src="https://pagedone.io/asset/uploads/1696238702.png" alt="#"
                                     className="w-44 h-56 rounded-2xl object-cover mx-auto min-[450px]:ml-0 md:mr-0 md:ml-auto" width={100} height={100} />
-                                <Image src="https://pagedone.io/asset/uploads/1696238720.png" alt="Team tailwind section"
+                                <Image src="https://pagedone.io/asset/uploads/1696238720.png" alt="#"
                                     className="w-44 h-56 rounded-2xl object-cover md:-mt-20 mx-auto min-[450px]:mr-0 md:mx-auto" width={100} height={100} />
-                                <Image src="https://pagedone.io/asset/uploads/1696238737.png" alt="Team tailwind section"
+                                <Image src="https://pagedone.io/asset/uploads/1696238737.png" alt="#"
                                     className="w-44 h-56 rounded-2xl object-cover mx-auto min-[450px]:ml-0 md:mr-0" width={100} height={100} />
                             </div>
                         </div>
@@ -87,7 +87,7 @@ export default function Home() {
                     <div className="flex justify-center  gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
                         <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
                             <div className="flex items-center">
-                                <Image src="https://pagedone.io/asset/uploads/1696244317.png" alt="blogs tailwind section" className="rounded-t-2xl w-full" width={100} height={100} />
+                                <Image src="https://pagedone.io/asset/uploads/1696244317.png" alt="#" className="rounded-t-2xl w-full" width={100} height={100} />
                             </div>
                             <div className="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl group-hover:bg-gray-50">
                                 <span className="text-indigo-600 font-medium mb-3 block">Jan 01, 2023</span>
@@ -98,7 +98,7 @@ export default function Home() {
                         </div>
                         <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
                             <div className="flex items-center">
-                                <Image src="https://pagedone.io/asset/uploads/1696244340.png" alt="blogs tailwind section" className="rounded-t-2xl w-full" width={100} height={100} />
+                                <Image src="https://pagedone.io/asset/uploads/1696244340.png" alt="#" className="rounded-t-2xl w-full" width={100} height={100} />
                             </div>
                             <div className="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl group-hover:bg-gray-50">
                                 <span className="text-indigo-600 font-medium mb-3 block">Feb 01, 2023</span>
@@ -109,10 +109,10 @@ export default function Home() {
                         </div>
                         <div className="group w-full max-lg:max-w-xl lg:w-1/3 border border-gray-300 rounded-2xl">
                             <div className="flex items-center">
-                                <Image src="https://pagedone.io/asset/uploads/1696244356.png" alt="blogs tailwind section" className="rounded-t-2xl w-full" width={100} height={100} />
+                                <Image src="https://pagedone.io/asset/uploads/1696244356.png" alt="#" className="rounded-t-2xl w-full" width={100} height={100} />
                             </div>
                             <div className="p-4 lg:p-6 transition-all duration-300 rounded-b-2xl group-hover:bg-gray-50">
-                                <span className="text-indigo-600 font-medium mb-3 block">Mar 01, 20233</span>
+                                <span className="text-indigo-600 font-medium mb-3 block">Mar 01, 2023</span>
                                 <h4 className="text-xl text-gray-900 font-medium leading-8 mb-5">How to analyze every holdings of your portfolio</h4>
                                 <p className="text-gray-500 leading-6 mb-10">Our comprehensive guide will equip you with the tools and insights needed to..</p>
                                 <Link href="/blog/3" className="cursor-pointer text-lg text-indigo-600 font-semibold">Read more..</Link>
@@ -181,7 +181,7 @@ export default function Home() {
 
                             </Link>
                         </div>
-                        <span className="text-lg text-gray-500 text-center block">©<a href="#">Simple Blog</a> 2024, All rights reserved.</span>
+                        <span className="text-lg text-gray-500 text-center block">©<Link href="#">Simple Blog</Link> 2024, All rights reserved.</span>
                     </div>
                 </div>
             </footer>
