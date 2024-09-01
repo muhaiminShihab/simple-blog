@@ -41,7 +41,7 @@ export default function Header() {
                         </ul>
                     </div>
                     <div className="navbar-end">
-                        <button className="btn" onClick={() => document.getElementById('subscriptionModal').showModal()}>open modal</button>
+                        <button className="btn" onClick={() => document.getElementById('subscriptionModal').showModal()}>Subscribe</button>
                         <Modal id="subscriptionModal" title="Newsletter Subscription">
                             <div className="py-4">
                                 <label className="label">Email Address:</label>
