@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 import Header from "@/components/layouts/header"
 import Footer from "@/components/layouts/footer"
 
@@ -17,7 +16,7 @@ export default function Blog() {
                                 <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">Through collaborationperse perspectives and strengths are leveraged to create inclusive environments where everyone has the opportunity to thrive. This approach not only fosters personal growth and achievement but also strengthens the fabric of society.</p>
                             </div>
                         </div>
-                        <Image className="lg:mx-0 mx-auto w-full rounded-3xl" src="https://pagedone.io/asset/uploads/1717751272.png" alt="#" width={100} height={100} />
+                        <img className="lg:mx-0 mx-auto w-full rounded-3xl" src="https://pagedone.io/asset/uploads/1717751272.png" alt="#" />
                     </div>
                     <div className="mt-16 text-gray-500">
                         Through collaborationperse perspectives and strengths are leveraged to create inclusive environments where everyone has the opportunity to thrive. This approach not only fosters personal growth and achievement but also strengthens the fabric of society. Through collaborationperse perspectives and strengths are leveraged to create inclusive environments where everyone has the opportunity to thrive. This approach not only fosters personal growth and achievement but also strengthens the fabric of society. Through collaborationperse perspectives and strengths are leveraged to create inclusive environments where everyone has the opportunity to thrive. This approach not only fosters personal growth and achievement but also strengthens the fabric of society. Through collaborationperse perspectives and strengths are leveraged to create inclusive environments where everyone has the opportunity to thrive. This approach not only fosters personal growth and achievement but also strengthens the fabric of society. Through collaborationperse perspectives and strengths are leveraged to create inclusive environments where everyone has the opportunity to thrive. This approach not only fosters personal growth and achievement but also strengthens the fabric of society.
